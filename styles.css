@@ -164,6 +164,7 @@ button:hover {
 .features-image img {
     width: 100%;
     height: 800px;
+    object-fit: cover;
 }
 
 .years {
@@ -300,6 +301,10 @@ footer {
     .features-image,
     .sponsor-image {
         width: 100%;
+    }
+
+    .features-image img{
+        object-fit: cover;
     }
 
     footer{
